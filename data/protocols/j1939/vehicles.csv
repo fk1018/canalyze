@@ -1,0 +1,452 @@
+manufacturer,year,vehicle_name,industry
+John Deere,2023,John Deere 8R Series Tractor,Farm Equipment
+Caterpillar,2022,Caterpillar 336 Next Gen Excavator,Construction
+Volvo Trucks,2023,Volvo VNL Series,Trucking
+Kenworth,2023,Kenworth T680 Next Gen,Trucking
+Freightliner,2022,Freightliner Cascadia,Trucking
+Mack Trucks,2022,Mack Anthem,Trucking
+Peterbilt,2023,Peterbilt Model 579,Trucking
+Navistar International,2022,International LT Series,Trucking
+DAF Trucks,2021,DAF XF,Trucking
+Scania,2022,Scania R Series,Trucking
+MAN,2021,MAN TGX,Trucking
+Blue Bird Corporation,2022,Blue Bird Vision School Bus,Education
+Thomas Built Buses,2023,Thomas Saf-T-Liner C2,Education
+Gillig,2022,Gillig Low Floor Bus,Transportation
+New Flyer,2021,New Flyer Xcelsior Bus,Transportation
+Caterpillar,2021,Caterpillar 140 Motor Grader,Construction
+Komatsu,2022,Komatsu D61EX-24 Bulldozer,Construction
+Hitachi Construction Machinery,2021,Hitachi ZX350LC-6 Excavator,Construction
+Bobcat Company,2022,Bobcat T76 Compact Track Loader,Construction
+Case IH,2021,Case IH Magnum Series Tractor,Farm Equipment
+New Holland Agriculture,2022,New Holland T8 Tractor,Farm Equipment
+AGCO Corporation,2021,Massey Ferguson 8700 S Series Tractor,Farm Equipment
+Fendt,2022,Fendt 900 Vario Tractor,Farm Equipment
+Kubota,2021,Kubota M8 Series Tractor,Farm Equipment
+Volvo Construction Equipment,2023,Volvo L220H Wheel Loader,Construction
+Bell Equipment,2021,Bell B30E Articulated Dump Truck,Construction
+Terex,2022,Terex RT 100US Rough Terrain Crane,Construction
+JCB,2021,JCB 3CX Backhoe Loader,Construction
+Liebherr,2022,Liebherr LTM 1120-4.1 Mobile Crane,Construction
+Kobelco,2021,Kobelco SK350LC-10 Excavator,Construction
+Hyundai Construction Equipment,2022,Hyundai HX220L Excavator,Construction
+Doosan,2021,Doosan DX300LC-5 Excavator,Construction
+E-Z Pack,2021,Hercules Front Loader,Waste Management
+Heil Environmental,2022,Heil Half/Pack Front Loader,Waste Management
+McNeilus,2021,McNeilus Rear Loader,Waste Management
+Dennis Eagle,2022,Dennis Eagle ProView Garbage Truck,Waste Management
+Volvo Penta,2021,Volvo Penta D13 Marine Engine,Vessel
+Cummins Marine,2022,Cummins QSB6.7 Marine Engine,Vessel
+Caterpillar Marine,2021,Caterpillar C32 Marine Engine,Vessel
+Rolls-Royce,2022,MTU Series 4000 Marine Engine,Vessel
+PACCAR,2021,DAF CF,Trucking
+Isuzu Motors,2022,Isuzu F-Series,Trucking
+Hino Motors,2021,Hino 500 Series,Trucking
+Ford Trucks,2022,Ford F-MAX,Trucking
+Mitsubishi Fuso,2021,Fuso Canter,Trucking
+Iveco,2022,Iveco S-Way,Trucking
+Navistar International,2021,International HX Series,Construction
+Peterbilt,2022,Peterbilt Model 567,Construction
+Freightliner,2021,Freightliner 114SD,Construction
+Mack Trucks,2022,Mack Granite,Construction
+Western Star,2021,Western Star 4700,Construction
+Autocar Trucks,2022,Autocar ACX Xpeditor,Waste Management
+Kalmar,2021,Kalmar Ottawa T2 Terminal Tractor,Transportation/Logistics
+Terberg,2022,Terberg YT203 Terminal Tractor,Transportation/Logistics
+Linde Material Handling,2021,Linde H50 Diesel Forklift,Manufacturing
+Crown Equipment Corporation,2022,Crown C-5 Series Forklift,Manufacturing
+Jungheinrich,2021,Jungheinrich EFG Series Forklift,Manufacturing
+Manitou,2022,Manitou MHT-X 790 Telehandler,Construction
+Tadano,2021,Tadano GR-1000XL-4 Rough Terrain Crane,Construction
+Link-Belt Cranes,2022,Link-Belt TCC-2500 Telescopic Crawler Crane,Construction
+Grove,2021,Grove GMK5250L-1 All-Terrain Crane,Construction
+Sennebogen,2022,Sennebogen 835 E Material Handler,Manufacturing
+Hitachi Construction Machinery,2021,Hitachi ZW310-6 Wheel Loader,Construction
+John Deere,2022,John Deere 744L Wheel Loader,Construction
+Case Construction,2021,Case 821G Wheel Loader,Construction
+Bell Equipment,2022,Bell B45E Articulated Dump Truck,Construction
+Komatsu,2021,Komatsu HM400-5 Articulated Truck,Construction
+Volvo Construction Equipment,2022,Volvo A45G Articulated Hauler,Construction
+Caterpillar,2021,Caterpillar 745 Articulated Truck,Construction
+Scania,2022,Scania G-Series,Trucking
+MAN,2021,MAN TGS,Trucking
+DAF Trucks,2022,DAF CF Electric,Trucking
+Mercedes-Benz Trucks,2021,Mercedes-Benz Arocs,Construction
+Peterbilt,2022,Peterbilt Model 220,Delivery
+BYD Auto,2021,BYD 8TT Electric Truck,Trucking
+Nikola Motor Company,2022,Nikola Tre BEV,Trucking
+Hyundai Motor Company,2021,Hyundai XCIENT Fuel Cell Truck,Trucking
+Blue Bird Corporation,2022,Blue Bird Vision Electric School Bus,Education
+Thomas Built Buses,2021,Jouley Electric Bus,Education
+Proterra,2022,Proterra ZX5 Electric Bus,Transportation
+New Flyer,2022,New Flyer Xcelsior CHARGE NG Bus,Transportation
+Gillig,2021,Gillig Battery Electric Bus,Transportation
+Lion Electric,2022,LionC Electric School Bus,Education
+BelAZ,2021,BelAZ 75710 Mining Dump Truck,Mining
+Epiroc,2022,Epiroc Minetruck MT65,Mining
+Sandvik,2021,Sandvik TH663i Underground Truck,Mining
+Liebherr,2022,Liebherr T 274 Mining Truck,Mining
+Komatsu,2021,Komatsu 980E-4 Haul Truck,Mining
+Caterpillar,2022,Caterpillar 797F Mining Truck,Mining
+Hitachi Construction Machinery,2021,Hitachi EH5000AC-3 Dump Truck,Mining
+Terex,2022,Terex TR100 Mining Truck,Mining
+John Deere,2021,John Deere 460E-II Articulated Dump Truck,Construction
+Bell Equipment,2022,Bell B60E Articulated Dump Truck,Construction
+Volvo Trucks,2023,Volvo VNR Electric,Trucking
+Kenworth,2023,Kenworth T880S,Construction
+Freightliner,2023,Freightliner eCascadia,Trucking
+Mack Trucks,2023,Mack LR Electric,Waste Management
+Peterbilt,2023,Peterbilt Model 520EV,Waste Management
+Navistar International,2023,International eMV Series,Trucking
+Blue Bird Corporation,2023,Blue Bird Vision Electric School Bus,Education
+Thomas Built Buses,2023,Saf-T-Liner C2 Jouley Electric Bus,Education
+New Flyer,2023,Xcelsior CHARGE NG Electric Bus,Transportation
+Gillig,2023,Gillig Low Floor Plus Electric Bus,Transportation
+BYD Auto,2023,BYD K9S Electric Bus,Transportation
+Proterra,2023,Proterra ZX5 Max Electric Bus,Transportation
+Lion Electric,2023,Lion6 Electric Truck,Trucking
+Nikola Motor Company,2023,Nikola Tre BEV,Trucking
+Volvo Construction Equipment,2023,Volvo EC300E Hybrid Excavator,Construction
+Caterpillar,2023,Caterpillar 336 Next Gen Excavator,Construction
+Komatsu,2023,Komatsu HB365LC-3 Hybrid Excavator,Construction
+Hitachi Construction Machinery,2023,Hitachi ZX210X-6 Excavator,Construction
+John Deere,2023,John Deere 850L Dozer,Construction
+Case Construction,2023,Case 2050M Dozer,Construction
+New Holland Agriculture,2023,New Holland T9 Series Tractor,Farm Equipment
+Case IH,2023,Case IH Steiger Series Tractor,Farm Equipment
+AGCO Corporation,2023,Challenger MT800 Series Tractor,Farm Equipment
+Fendt,2023,Fendt 1100 MT Vario Tractor,Farm Equipment
+Kubota,2023,Kubota M8 Series Tractor,Farm Equipment
+Bell Equipment,2023,Bell B50E Articulated Dump Truck,Construction
+Terex Trucks,2023,Terex TA400 Articulated Dump Truck,Construction
+Volvo Construction Equipment,2023,Volvo A60H Articulated Hauler,Construction
+Caterpillar,2023,Caterpillar 745 Articulated Truck,Construction
+Komatsu,2023,Komatsu HM400-5 Articulated Truck,Construction
+Liebherr,2023,Liebherr T 284 Mining Truck,Mining
+BelAZ,2023,BelAZ 75600 Series Mining Dump Truck,Mining
+Hitachi Construction Machinery,2023,Hitachi EH4000AC-3 Rigid Dump Truck,Mining
+Sandvik,2023,Sandvik TH663i Underground Truck,Mining
+Epiroc,2023,Epiroc Minetruck MT65,Mining
+Scania,2023,Scania P-Series,Trucking
+MAN Trucks,2023,MAN TGM,Trucking
+DAF Trucks,2023,DAF LF,Trucking
+Mercedes-Benz Trucks,2023,Mercedes-Benz eActros,Trucking
+Iveco,2023,Iveco S-Way NP,Trucking
+Hino Motors,2023,Hino XL Series,Trucking
+Isuzu Motors,2023,Isuzu F-Series,Trucking
+Mitsubishi Fuso,2023,Fuso eCanter,Trucking
+PACCAR,2023,DAF CF Electric,Trucking
+Kalmar,2023,Kalmar Ottawa T2E Electric Terminal Tractor,Transportation/Logistics
+Terberg,2023,Terberg YT203EV Electric Terminal Tractor,Transportation/Logistics
+Linde Material Handling,2023,Linde E60 Electric Forklift,Manufacturing
+Crown Equipment Corporation,2023,Crown FC 5200 Series Forklift,Manufacturing
+Jungheinrich,2023,Jungheinrich EFG S50s Electric Forklift,Manufacturing
+Caterpillar Marine,2023,Caterpillar C32 ACERT Marine Engine,Vessel
+Cummins Marine,2023,Cummins QSK38 Marine Engine,Vessel
+Volvo Penta,2023,Volvo Penta D16 Marine Engine,Vessel
+MTU Friedrichshafen,2023,MTU Series 2000 M96L Marine Engine,Vessel
+John Deere Power Systems,2023,John Deere PowerTech 6090SFM85 Marine Engine,Vessel
+Oshkosh Corporation,2023,Oshkosh S-Series Front Discharge Mixer,Construction
+Terex Advance,2023,Terex Advance Charger Series Mixer,Construction
+McNeilus,2023,McNeilus Bridgemaster Mixer,Construction
+Liebherr,2023,Liebherr HTM 905 Truck Mixer,Construction
+Putzmeister,2023,Putzmeister Mixkret 5 Mixer,Construction
+Sany Group,2023,SANY SY412C-8 Truck Mixer,Construction
+Doosan,2023,Doosan DL580-5 Wheel Loader,Construction
+Hyundai Construction Equipment,2023,Hyundai HL980A Wheel Loader,Construction
+Case Construction,2023,Case 1121G Wheel Loader,Construction
+John Deere,2023,John Deere 944K Hybrid Wheel Loader,Construction
+Komatsu,2023,Komatsu WA600-8 Wheel Loader,Construction
+Caterpillar,2023,Caterpillar 988K XE Wheel Loader,Construction
+Hitachi Construction Machinery,2023,Hitachi ZW550-6 Wheel Loader,Construction
+Liebherr,2023,Liebherr L 586 XPower Wheel Loader,Construction
+JCB,2023,JCB 457 Wheel Loader,Construction
+Caterpillar,2023,Caterpillar D6 XE Electric Drive Dozer,Construction
+Komatsu,2023,Komatsu D155AX-8 Dozer,Construction
+Liebherr,2023,Liebherr PR 776 Mining Dozer,Mining
+Hyundai Construction Equipment,2023,Hyundai HX520L Excavator,Construction
+Volvo Construction Equipment,2023,Volvo EC480E Excavator,Construction
+Caterpillar,2023,Caterpillar 374 Hydraulic Excavator,Construction
+Komatsu,2023,Komatsu PC490LC-11 Excavator,Construction
+Hitachi Construction Machinery,2023,Hitachi ZX490LCH-6 Excavator,Construction
+Liebherr,2023,Liebherr R 976-E Electric Excavator,Construction
+Doosan,2023,Doosan DX490LC-5 Excavator,Construction
+Sany Group,2023,SANY SY500H Excavator,Construction
+Bell Equipment,2023,Bell B60E Articulated Dump Truck,Construction
+John Deere,2023,John Deere 410E-II Articulated Dump Truck,Construction
+Caterpillar,2023,Caterpillar 725 Articulated Truck,Construction
+Volvo Construction Equipment,2023,Volvo A45G Articulated Hauler,Construction
+Komatsu,2023,Komatsu HM400-5 Articulated Dump Truck,Construction
+Scania,2023,Scania XT Range,Construction
+Mercedes-Benz Trucks,2023,Mercedes-Benz Arocs SLT,Construction
+MAN Trucks,2023,MAN TGS WW,Construction
+DAF Trucks,2023,DAF CF Construction,Construction
+Iveco,2023,Iveco Trakker,Construction
+Hino Motors,2023,Hino 700 Series,Trucking
+Isuzu Motors,2023,Isuzu Giga,Trucking
+Autocar Trucks,2023,Autocar E-ACX Electric Refuse Truck,Waste Management
+Volvo Trucks,2023,Volvo FE Electric Refuse Truck,Waste Management
+Heil Environmental,2023,Heil Electric Side Loader,Waste Management
+McNeilus,2023,McNeilus Zero Radius Side Loader,Waste Management
+Labrie Enviroquip Group,2023,Labrie Electrified Expert Rear Loader,Waste Management
+BYD Auto,2023,BYD 8R Electric Refuse Truck,Waste Management
+Lion Electric,2023,Lion8 Electric Refuse Truck,Waste Management
+Terberg RosRoca Group,2023,Terberg Electric Refuse Collection Vehicle,Waste Management
+Kalmar,2023,Kalmar Electric Reachstacker,Transportation/Logistics
+Konecranes,2023,Konecranes SMV 2216 TC5 Reach Stacker,Transportation/Logistics
+Sennebogen,2023,Sennebogen 855 E Hybrid Material Handler,Manufacturing
+Manitou,2023,Manitou MRT Vision Plus Rotating Telehandler,Construction
+JLG Industries,2023,JLG 2733 High Capacity Telehandler,Construction
+Genie,2023,Genie GTH-1256 Telehandler,Construction
+Magni Telescopic Handlers,2023,Magni RTH 6.51 SH Rotating Telehandler,Construction
+Toyota Material Handling,2023,Toyota High-Capacity Forklift,Manufacturing
+Doosan Industrial Vehicle,2023,Doosan B45X-7 Electric Forklift,Manufacturing
+Clark Material Handling Company,2023,Clark S-Series Electric Forklift,Manufacturing
+CAT Lift Trucks,2023,CAT 2ET4000-2ET6000 Electric Forklift,Manufacturing
+Hyundai Material Handling,2023,Hyundai 30B-9 Electric Forklift,Manufacturing
+Freightliner,2023,Freightliner M2 106,Trucking
+Peterbilt,2023,Peterbilt Model 389,Trucking
+Mack Trucks,2023,Mack Pinnacle,Trucking
+Volvo Trucks,2023,Volvo VHD,Construction
+Navistar International,2023,International HV Series,Construction
+Western Star,2023,Western Star 4900,Trucking
+Isuzu Motors,2023,Isuzu N-Series,Trucking
+Freightliner,2023,Freightliner 114SD,Construction
+Kenworth,2023,Kenworth T880,Construction
+Peterbilt,2023,Peterbilt Model 567,Construction
+Mack Trucks,2023,Mack Granite,Construction
+Navistar International,2023,International HX Series,Construction
+DAF Trucks,2023,DAF XF,Trucking
+Scania,2023,Scania R Series,Trucking
+MAN Trucks,2023,MAN TGX,Trucking
+Iveco,2023,Iveco Stralis,Trucking
+Mercedes-Benz Trucks,2023,Mercedes-Benz Actros,Trucking
+PACCAR,2023,Kenworth W990,Trucking
+Freightliner,2023,Freightliner eM2,Delivery
+Kenworth,2023,Kenworth K270E,Delivery
+Peterbilt,2023,Peterbilt Model 220EV,Delivery
+BYD Auto,2023,BYD 8Y Electric Yard Tractor,Transportation/Logistics
+Terberg,2023,Terberg YT182 Terminal Tractor,Transportation/Logistics
+Linde Material Handling,2023,Linde H25 Diesel Forklift,Manufacturing
+Crown Equipment Corporation,2023,Crown C-G Series LPG Forklift,Manufacturing
+Jungheinrich,2023,Jungheinrich EFG 550 Electric Forklift,Manufacturing
+Toyota Material Handling,2023,Toyota 8-Series IC Forklift,Manufacturing
+John Deere,2023,John Deere 9R Series Tractor,Farm Equipment
+Case IH,2023,Case IH Magnum Series Tractor,Farm Equipment
+New Holland Agriculture,2023,New Holland CR Revelation Combine,Farm Equipment
+AGCO Corporation,2023,Massey Ferguson 8700 S Series,Farm Equipment
+Fendt,2023,Fendt 1000 Vario Tractor,Farm Equipment
+Kubota,2023,Kubota M7 Series Tractor,Farm Equipment
+Caterpillar,2023,Caterpillar 336 Hydraulic Excavator,Construction
+Komatsu,2023,Komatsu PC360LC-11 Excavator,Construction
+Hitachi Construction Machinery,2023,Hitachi ZX350LC-6 Excavator,Construction
+Doosan,2023,Doosan DX300LC-5 Excavator,Construction
+Hyundai Construction Equipment,2023,Hyundai HX300L Excavator,Construction
+Liebherr,2023,Liebherr R 936 Litronic Excavator,Construction
+Volvo Construction Equipment,2023,Volvo EC350E Excavator,Construction
+John Deere,2023,John Deere 350G LC Excavator,Construction
+Case Construction,2023,Case CX350D Excavator,Construction
+Bell Equipment,2023,Bell B30E Articulated Dump Truck,Construction
+Terex Trucks,2023,Terex TA300 Articulated Dump Truck,Construction
+Volvo Construction Equipment,2023,Volvo A35G Articulated Hauler,Construction
+Caterpillar,2023,Caterpillar 730 Articulated Truck,Construction
+Komatsu,2023,Komatsu HM300-5 Articulated Truck,Construction
+Bobcat Company,2023,Bobcat T870 Compact Track Loader,Construction
+JCB,2023,JCB 300T Compact Track Loader,Construction
+Case Construction,2023,Case TV450B Compact Track Loader,Construction
+John Deere,2023,John Deere 333G Compact Track Loader,Construction
+Caterpillar,2023,Caterpillar 299D3 Compact Track Loader,Construction
+Terex,2023,Terex RT 90 Rough Terrain Crane,Construction
+Tadano,2023,Tadano GR-1000XLL-4 Rough Terrain Crane,Construction
+Link-Belt Cranes,2023,Link-Belt 75RT Rough Terrain Crane,Construction
+Grove Cranes,2023,Grove GRT9165 Rough Terrain Crane,Construction
+Liebherr,2023,Liebherr LRT 1100-2.1 Rough Terrain Crane,Construction
+Sany Group,2023,SANY SRC865XL Rough Terrain Crane,Construction
+Magni Telescopic Handlers,2023,Magni HTH 16.10 Telehandler,Construction
+Genie,2023,Genie S-85 XC Boom Lift,Construction
+JLG Industries,2023,JLG 1850SJ Ultra Boom Lift,Construction
+Haulotte Group,2023,Haulotte HT85 RTJ PRO Boom Lift,Construction
+Skyjack,2023,Skyjack SJ85 AJ Articulating Boom Lift,Construction
+Waste Management,2023,Waste Management Front Loader Truck,Waste Management
+Heil Environmental,2023,Heil MultiPack Automated Side Loader,Waste Management
+McNeilus,2023,McNeilus Meridian Front Loader,Waste Management
+Autocar Trucks,2023,Autocar ACMD Refuse Truck,Waste Management
+Kenworth,2023,Kenworth W990,Trucking
+Freightliner,2023,Freightliner Cascadia,Trucking
+Mack Trucks,2023,Mack Anthem,Trucking
+Volvo Trucks,2023,Volvo VNL,Trucking
+Western Star,2023,Western Star 5700XE,Trucking
+Navistar International,2023,International LT Series,Trucking
+DAF Trucks,2023,DAF XG,Trucking
+Scania,2023,Scania S Series,Trucking
+Iveco,2023,Iveco S-Way,Trucking
+PACCAR,2023,DAF CF,Trucking
+Hino Motors,2023,Hino 500 Series,Trucking
+Ford Trucks,2023,Ford Cargo,Trucking
+Kalmar,2023,Kalmar DRG450 Reachstacker,Transportation/Logistics
+Terex,2023,Terex RT 130 Rough Terrain Crane,Construction
+Liebherr,2023,Liebherr LTM 1300-6.2 All-Terrain Crane,Construction
+Hitachi Construction Machinery,2023,Hitachi EX5600-7 Excavator,Mining
+Komatsu,2023,Komatsu PC8000-11 Excavator,Mining
+Caterpillar,2023,Caterpillar 6060 Hydraulic Mining Shovel,Mining
+BelAZ,2023,BelAZ 75710 Mining Dump Truck,Mining
+Volvo Construction Equipment,2023,Volvo R100E Rigid Hauler,Mining
+MacDon Industries,2023,MacDon FD2 FlexDraper Header,Farm Equipment
+John Deere,2023,John Deere S790 Combine,Farm Equipment
+Case IH,2023,Case IH Axial-Flow 9250 Combine,Farm Equipment
+New Holland Agriculture,2023,New Holland CX8.90 Combine,Farm Equipment
+AGCO Corporation,2023,Gleaner S98 Combine,Farm Equipment
+John Deere,2024,John Deere 7R Series Tractor,Farm Equipment
+Caterpillar,2024,Caterpillar 320 Next Gen Excavator,Construction
+Volvo Trucks,2024,Volvo FH Series,Trucking
+Kenworth,2024,Kenworth T700,Trucking
+Freightliner,2024,Freightliner M2 112,Trucking
+Mack Trucks,2024,Mack LR Electric,Waste Management
+Peterbilt,2024,Peterbilt Model 389,Trucking
+Navistar International,2024,International CV Series,Trucking
+DAF Trucks,2024,DAF LF,Trucking
+Scania,2024,Scania P Series,Trucking
+MAN,2024,MAN TGL,Trucking
+Blue Bird Corporation,2024,Blue Bird All American School Bus,Education
+Thomas Built Buses,2024,Thomas Minotour,Education
+Gillig,2024,Gillig BRT Bus,Transportation
+New Flyer,2024,New Flyer MiDi Bus,Transportation
+Caterpillar,2024,Caterpillar 120 Motor Grader,Construction
+Komatsu,2024,Komatsu D85EX-18 Bulldozer,Construction
+Hitachi Construction Machinery,2024,Hitachi ZX250LC-6 Excavator,Construction
+Bobcat Company,2024,Bobcat S850 Skid-Steer Loader,Construction
+Case IH,2024,Case IH Steiger Series Tractor,Farm Equipment
+New Holland Agriculture,2024,New Holland T7 Tractor,Farm Equipment
+AGCO Corporation,2024,Massey Ferguson 7700 S Series Tractor,Farm Equipment
+Fendt,2024,Fendt 800 Vario Tractor,Farm Equipment
+Kubota,2024,Kubota M6 Series Tractor,Farm Equipment
+Volvo Construction Equipment,2024,Volvo L180H Wheel Loader,Construction
+Bell Equipment,2024,Bell B25E Articulated Dump Truck,Construction
+Terex,2024,Terex RT 45 Rough Terrain Crane,Construction
+JCB,2024,JCB 4CX Backhoe Loader,Construction
+Liebherr,2024,Liebherr LTM 1090-4.2 Mobile Crane,Construction
+Kobelco,2024,Kobelco SK210LC-10 Excavator,Construction
+Hyundai Construction Equipment,2024,Hyundai HX145LCR Excavator,Construction
+Doosan,2024,Doosan DX225LC-5 Excavator,Construction
+E-Z Pack,2024,E-Z Pack Goliath Rear Loader,Waste Management
+Heil Environmental,2024,Heil DuraPack 5000 Rear Loader,Waste Management
+McNeilus,2024,McNeilus Pacific Series Front Loader,Waste Management
+Dennis Eagle,2024,Dennis Eagle Elite Garbage Truck,Waste Management
+Volvo Penta,2024,Volvo Penta D11 Marine Engine,Vessel
+Cummins Marine,2024,Cummins QSM11 Marine Engine,Vessel
+Caterpillar Marine,2024,Caterpillar C18 Marine Engine,Vessel
+Rolls-Royce,2024,MTU Series 2000 Marine Engine,Vessel
+PACCAR,2024,DAF XF Electric,Trucking
+Isuzu Motors,2024,Isuzu N-Series,Trucking
+Hino Motors,2024,Hino 300 Series,Trucking
+Ford Trucks,2024,Ford F-750,Trucking
+Mitsubishi Fuso,2024,Fuso Fighter,Trucking
+Iveco,2024,Iveco Daily,Trucking
+Navistar International,2024,International MV Series,Construction
+Peterbilt,2024,Peterbilt Model 567,Construction
+Freightliner,2024,Freightliner 122SD,Construction
+Mack Trucks,2024,Mack TerraPro,Construction
+Western Star,2024,Western Star 4900,Construction
+Autocar Trucks,2024,Autocar DC-64M,Waste Management
+Kalmar,2024,Kalmar Ottawa T2E Terminal Tractor,Transportation/Logistics
+Terberg,2024,Terberg YT223 Terminal Tractor,Transportation/Logistics
+Linde Material Handling,2024,Linde H80 Diesel Forklift,Manufacturing
+Crown Equipment Corporation,2024,Crown SC 6000 Series Forklift,Manufacturing
+Jungheinrich,2024,Jungheinrich ETV Q20 Reach Truck,Manufacturing
+Manitou,2024,Manitou MLT 840 Telehandler,Construction
+Tadano,2024,Tadano ATF 70G-4 All-Terrain Crane,Construction
+Link-Belt Cranes,2024,Link-Belt RTC-80150 Series II Crane,Construction
+Grove,2024,Grove GMK4100L-1 All-Terrain Crane,Construction
+Sennebogen,2024,Sennebogen 818 E Material Handler,Manufacturing
+Hitachi Construction Machinery,2024,Hitachi ZW220-6 Wheel Loader,Construction
+John Deere,2024,John Deere 644K Wheel Loader,Construction
+Case Construction,2024,Case 721G Wheel Loader,Construction
+Bell Equipment,2024,Bell B40E Articulated Dump Truck,Construction
+John Deere,2024,John Deere 6R Series Tractor,Farm Equipment
+Caterpillar,2024,Caterpillar 315 Next Gen Excavator,Construction
+Volvo Trucks,2024,Volvo FM Series,Trucking
+Kenworth,2024,Kenworth T600,Trucking
+Freightliner,2024,Freightliner M2 106,Trucking
+Mack Trucks,2024,Mack MD Series,Trucking
+Peterbilt,2024,Peterbilt Model 567,Trucking
+Navistar International,2024,International RH Series,Trucking
+DAF Trucks,2024,DAF CF Electric,Trucking
+Scania,2024,Scania L Series,Trucking
+MAN,2024,MAN TGM,Trucking
+Blue Bird Corporation,2024,Blue Bird Micro Bird School Bus,Education
+Thomas Built Buses,2024,Thomas Minotour School Bus,Education
+Gillig,2024,Gillig Trolley Bus,Transportation
+New Flyer,2024,New Flyer D60LF Bus,Transportation
+Caterpillar,2024,Caterpillar 140 Motor Grader,Construction
+Komatsu,2024,Komatsu D65EX-18 Bulldozer,Construction
+Hitachi Construction Machinery,2024,Hitachi ZX300LC-6 Excavator,Construction
+Bobcat Company,2024,Bobcat S650 Skid-Steer Loader,Construction
+Case IH,2024,Case IH Puma Series Tractor,Farm Equipment
+New Holland Agriculture,2024,New Holland T6 Tractor,Farm Equipment
+AGCO Corporation,2024,Massey Ferguson 6700 S Series Tractor,Farm Equipment
+Fendt,2024,Fendt 700 Vario Tractor,Farm Equipment
+Kubota,2024,Kubota M5 Series Tractor,Farm Equipment
+Volvo Construction Equipment,2024,Volvo L150H Wheel Loader,Construction
+Bell Equipment,2024,Bell B20E Articulated Dump Truck,Construction
+Terex,2024,Terex RT 35 Rough Terrain Crane,Construction
+JCB,2024,JCB 2CX Backhoe Loader,Construction
+Liebherr,2024,Liebherr LTM 1060-3.1 Mobile Crane,Construction
+Kobelco,2024,Kobelco SK170LC-10 Excavator,Construction
+Hyundai Construction Equipment,2024,Hyundai HX130LCR Excavator,Construction
+Doosan,2024,Doosan DX140LC-5 Excavator,Construction
+E-Z Pack,2024,E-Z Pack Hercules Rear Loader,Waste Management
+Heil Environmental,2024,Heil DuraPack 7000 Rear Loader,Waste Management
+McNeilus,2024,McNeilus Contender Front Loader,Waste Management
+Dennis Eagle,2024,Dennis Eagle Olympus Garbage Truck,Waste Management
+Volvo Penta,2024,Volvo Penta D8 Marine Engine,Vessel
+Cummins Marine,2024,Cummins QSB6.7 Marine Engine,Vessel
+Caterpillar Marine,2024,Caterpillar C12 Marine Engine,Vessel
+Rolls-Royce,2024,MTU Series 1600 Marine Engine,Vessel
+PACCAR,2024,DAF LF Electric,Trucking
+Isuzu Motors,2024,Isuzu F-Series,Trucking
+Hino Motors,2024,Hino 500 Series,Trucking
+Ford Trucks,2024,Ford F-650,Trucking
+Mitsubishi Fuso,2024,Fuso Canter,Trucking
+Iveco,2024,Iveco Eurocargo,Trucking
+Navistar International,2024,International HV Series,Construction
+Peterbilt,2024,Peterbilt Model 520,Construction
+Freightliner,2024,Freightliner 108SD,Construction
+Mack Trucks,2024,Mack Granite,Construction
+Western Star,2024,Western Star 4700,Construction
+Autocar Trucks,2024,Autocar ACX Xpeditor,Waste Management
+Kalmar,2024,Kalmar Ottawa T2 Terminal Tractor,Transportation/Logistics
+Terberg,2024,Terberg YT182 Terminal Tractor,Transportation/Logistics
+Linde Material Handling,2024,Linde H50 Diesel Forklift,Manufacturing
+Crown Equipment Corporation,2024,Crown C-5 Series Forklift,Manufacturing
+Jungheinrich,2024,Jungheinrich EFG Series Forklift,Manufacturing
+Manitou,2024,Manitou MHT-X 790 Telehandler,Construction
+Tadano,2024,Tadano GR-1000XL-4 Rough Terrain Crane,Construction
+Link-Belt Cranes,2024,Link-Belt TCC-2500 Telescopic Crawler Crane,Construction
+Grove,2024,Grove GMK5250L-1 All-Terrain Crane,Construction
+Sennebogen,2024,Sennebogen 835 E Material Handler,Manufacturing
+Hitachi Construction Machinery,2024,Hitachi ZW310-6 Wheel Loader,Construction
+John Deere,2024,John Deere 744L Wheel Loader,Construction
+Case Construction,2024,Case 821G Wheel Loader,Construction
+Bell Equipment,2024,Bell B45E Articulated Dump Truck,Construction
+Komatsu,2024,Komatsu HM400-5 Articulated Truck,Construction
+Volvo Construction Equipment,2024,Volvo A45G Articulated Hauler,Construction
+Caterpillar,2024,Caterpillar 745 Articulated Truck,Construction
+Scania,2024,Scania G-Series,Trucking
+MAN,2024,MAN TGS,Trucking
+Mercedes-Benz Trucks,2024,Mercedes-Benz Arocs,Construction
+Peterbilt,2024,Peterbilt Model 220,Delivery
+BYD Auto,2024,BYD 8TT Electric Truck,Trucking
+Nikola Motor Company,2024,Nikola Tre BEV,Trucking
+Hyundai Motor Company,2024,Hyundai XCIENT Fuel Cell Truck,Trucking
+Blue Bird Corporation,2024,Blue Bird Vision Electric School Bus,Education
+Thomas Built Buses,2024,Thomas Saf-T-Liner C2 Jouley Electric Bus,Education
+Proterra,2024,Proterra ZX5 Electric Bus,Transportation
+New Flyer,2024,New Flyer Xcelsior CHARGE NG Bus,Transportation
+Gillig,2024,Gillig Battery Electric Bus,Transportation
+Lion Electric,2024,LionC Electric School Bus,Education
+BelAZ,2024,BelAZ 75710 Mining Dump Truck,Mining
+Epiroc,2024,Epiroc Minetruck MT65,Mining
+Sandvik,2024,Sandvik TH663i Underground Truck,Mining
+Liebherr,2024,Liebherr T 274 Mining Truck,Mining
+Komatsu,2024,Komatsu 980E-4 Haul Truck,Mining
+Caterpillar,2024,Caterpillar 797F Mining Truck,Mining
