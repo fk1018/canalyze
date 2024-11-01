@@ -1,6 +1,7 @@
 require_relative 'config/emulator'
 require_relative './lib/emulator'
-require_relative './lib/mazda_rx80408001_emulator'
+require_relative './lib/mazda_rx8_1'
+require_relative './lib/j1939_emulator'
 
 def prompt_for_vehicle
   puts "Select the vehicle to emulate:"
