@@ -1,6 +1,6 @@
 class Emulator
   def initialize
-    raise "Emulator is an abstract base class and cannot be instantiated directly."
+    raise 'Emulator is an abstract base class and cannot be instantiated directly.'
   end
 
   # Define any shared methods here, if needed
