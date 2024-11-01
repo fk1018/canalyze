@@ -57,3 +57,4 @@ build-iPhoneSimulator/
 
 # Dont check in my idea configs
 **.idea/
+**notes/
