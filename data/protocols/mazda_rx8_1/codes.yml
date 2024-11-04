@@ -1,0 +1,108 @@
+CAN_Bus_Data:
+  Indicator_Lights:
+    Message_ID_0x40:
+      Description: Indicator Light Colors
+      Parameters:
+        - Light_Color:
+            Raw_Data: "0x40"
+            Parsed_Value: "Green"
+        - Light_Color:
+            Raw_Data: "0x80"
+            Parsed_Value: "Yellow"
+        - Light_Color:
+            Raw_Data: "0xC0"
+            Parsed_Value: "Both (Green and Yellow)"
+      Example_Data:
+        ID: 0x40
+        Data: "0x40"
+        Notes:
+          - "0x40 represents Green"
+          - "0x80 represents Yellow"
+          - "0xC0 represents Both (Green and Yellow)"
+
+  Engine_Parameters:
+    Message_ID_RPM:
+      Description: Engine RPM
+      Parameters:
+        - RPM:
+            Raw_Data: "Varies"
+            Formula: "Actual RPM * 3.85"
+            Example_Parsed_Value: "5000 RPM"
+      Example_Data:
+        ID: RPM
+        Data: "0x12 0x34"
+        Notes:
+          - "Formula: Actual RPM * 3.85"
+          - "0x1234 translates to an RPM value (e.g., 5000 RPM)"
+
+  Throttle:
+    Message_ID_Throttle_Pedal:
+      Description: Throttle Pedal Position
+      Parameters:
+        - Pedal_Position:
+            Raw_Data: "0x00 - 0xC8"
+            Increment: "0.5%"
+            Parsed_Range: "0% - 100%"
+      Example_Data:
+        ID: Throttle_Pedal
+        Data: "0x64"
+        Notes:
+          - "0x64 represents a pedal position at 50% with increments of 0.5% per unit from 0x00 to 0xC8"
+
+  Warnings:
+    Message_ID_Check_Engine:
+      Description: Check Engine Light Status
+      Parameters:
+        - Check_Engine:
+            Raw_Data: "Bit 7"
+            Parsed_Value: "On if Bit 7 is set, otherwise Off"
+      Example_Data:
+        ID: Check_Engine
+        Data: "0x80"
+        Notes:
+          - "Bit 7 indicates the check engine light status; 0x80 means the light is On"
+
+  Speed:
+    Message_ID_Vehicle_Speed:
+      Description: Vehicle Speed in KPH
+      Parameters:
+        - Speed:
+            Raw_Data: "Wheel Speed / 100"
+            Formula: "(Actual KPH * 100) + 10000"
+            Example_Parsed_Value: "100 KPH"
+      Example_Data:
+        ID: Vehicle_Speed
+        Data: "0x27 0x10"
+        Notes:
+          - "0x2710 translates to 100 KPH using the formula (Actual KPH * 100) + 10000"
+
+  Transmission:
+    Message_ID_Transmission_Type:
+      Description: Transmission Type
+      Parameters:
+        - Transmission:
+            Raw_Data: "0x08 or 0x02"
+            Parsed_Value: "Manual (0x08), Automatic (0x02)"
+      Example_Data:
+        ID: Transmission_Type
+        Data: "0x08"
+        Notes:
+          - "0x08 represents a Manual transmission"
+          - "0x02 represents Automatic"
+
+  Oil_Pressure:
+    Message_ID_Oil_Pressure:
+      Description: Oil Pressure Status
+      Parameters:
+        - Oil_Pressure:
+            Raw_Data: ">= 1"
+            Parsed_Value: "OK"
+        - Oil_Pressure:
+            Raw_Data: "0"
+            Parsed_Value: "Fault"
+      Example_Data:
+        ID: Oil_Pressure
+        Data: "0x01"
+        Notes:
+          - "Data value >= 1 indicates pressure is OK"
+          - "0 represents a fault"
