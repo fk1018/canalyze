@@ -1,17 +1,13 @@
+# frozen_string_literal: true
+
 require_relative 'emulator'
 
-class MazdaRx81Emulator < Emulator
-  def initialize
-  end
-  def start
-    super
-    # Call CAN message methods or run any other emulation logic here
-    send_can_message
-  end
+# MazdaRx81Emulator
+class MazdaRx81Emulator
+  include Emulator
+  def initialize; end
 
-  def send_can_message
-    super
-    puts "Sending Mazda RX-8 specific CAN message to vcan0."
-    # Implement CAN message logic here
+  def start
+    puts "Starting #{self.class}"
   end
 end
