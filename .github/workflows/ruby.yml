@@ -12,9 +12,6 @@ permissions:
 jobs:
   can_emulator_test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: canalyze/can_emulator
     steps:
       - uses: actions/checkout@v4
 
@@ -25,7 +22,9 @@ jobs:
           bundler-cache: true
 
       - name: Install dependencies
+        working-directory: can_emulator
         run: bundle install
 
       - name: Run tests
+        working-directory: can_emulator
         run: bundle exec rake
