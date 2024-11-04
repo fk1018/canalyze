@@ -3,19 +3,27 @@ require_relative './lib/emulator'
 require_relative './lib/mazda_rx8_1'
 require_relative './lib/j1939_emulator'
 
-def prompt_for_vehicle
-  puts "Select the vehicle to emulate:"
+def main
+  choice = prompt_for_emulator
+  start_emulator(choice)
+end
+
+def prompt_for_emulator
+  puts 'Select the vehicle to emulate:'
   VEHICLE_CONFIG.each do |index, data|
     puts "#{index}. #{data[:name]}"
   end
 
-  choice = gets.chomp.to_i
-  if VEHICLE_CONFIG.key?(choice)
-    emulator = Object.const_get(VEHICLE_CONFIG[choice][:class_name]).new
+  gets.chomp.to_i
+end
+
+def start_emulator(user_selection)
+  if VEHICLE_CONFIG.key?(user_selection)
+    emulator = Object.const_get(VEHICLE_CONFIG[user_selection][:class_name]).new
     emulator.start
   else
-    puts "Invalid choice. Exiting..."
+    puts "Invalid choice of:\t#{user_selection}.\nExiting..."
   end
 end
 
-prompt_for_vehicle
+main
