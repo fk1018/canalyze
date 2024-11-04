@@ -1,6 +1,6 @@
-SAE_J1939:
+CAN_Bus_Data:
   Fuel_Efficiency_And_Consumption:
-    PGN_65266:
+    Message_ID_65266:
       Description: Fuel Consumption Information
       Parameters:
         - Instantaneous_Fuel_Rate:
@@ -12,32 +12,36 @@ SAE_J1939:
         - Total_Fuel_Used:
             Raw_Data: "0x78 0x9A 0xBC 0xDE"
             Parsed_Value: "1256.7 gallons"
-  # Example data for Fuel Efficiency and Consumption:
-  # { "id": 65266, "data": "0x12 0x34 0x56 0x78 0x9A 0xBC 0xDE" }
-  # 0x1234 represents Instantaneous Fuel Rate (18.7 L/hr),
-  # 0x56 represents Average Fuel Economy (7.8 MPG),
-  # 0x789ABCDE represents Total Fuel Used (1256.7 gallons).
+      Example_Data:
+        ID: 65266
+        Data: "0x12 0x34 0x56 0x78 0x9A 0xBC 0xDE"
+        Notes:
+          - "0x1234 represents Instantaneous Fuel Rate (18.7 L/hr)"
+          - "0x56 represents Average Fuel Economy (7.8 MPG)"
+          - "0x789ABCDE represents Total Fuel Used (1256.7 gallons)"
 
   Engine_Performance_And_Health:
-    PGN_65262:
+    Message_ID_65262:
       Description: Engine Temperature 1
       Parameters:
         - Coolant_Temperature:
             Raw_Data: "0x4B"
-            Parsed_Value: "75 °C" # Temperatures generally in Celsius
+            Parsed_Value: "75 °C"
         - Fuel_Temperature:
             Raw_Data: "0x2D"
             Parsed_Value: "45 °C"
         - Oil_Temperature:
             Raw_Data: "0x3E"
             Parsed_Value: "62 °C"
-    # Example data for Engine Temperature 1:
-    # { "id": 65262, "data": "0x4B 0x2D 0x3E" }
-    # 0x4B represents Coolant Temperature (75 °C),
-    # 0x2D represents Fuel Temperature (45 °C),
-    # 0x3E represents Oil Temperature (62 °C).
+      Example_Data:
+        ID: 65262
+        Data: "0x4B 0x2D 0x3E"
+        Notes:
+          - "0x4B represents Coolant Temperature (75 °C)"
+          - "0x2D represents Fuel Temperature (45 °C)"
+          - "0x3E represents Oil Temperature (62 °C)"
 
-    PGN_61444:
+    Message_ID_61444:
       Description: Electronic Engine Controller 1
       Parameters:
         - Engine_Torque_Mode:
@@ -55,14 +59,16 @@ SAE_J1939:
         - Percent_Load_At_Current_RPM:
             Raw_Data: "0x4F"
             Parsed_Value: "31%"
-  # Example data for Electronic Engine Controller 1:
-  # { "id": 61444, "data": "0x03 0x27 0x10 0x4F" }
-  # 0x03 represents Engine Torque Mode (Cruise Control Active),
-  # 0x2710 represents Actual Engine Speed (1000 RPM),
-  # 0x4F represents Percent Load at Current RPM (31%).
+      Example_Data:
+        ID: 61444
+        Data: "0x03 0x27 0x10 0x4F"
+        Notes:
+          - "0x03 represents Engine Torque Mode (Cruise Control Active)"
+          - "0x2710 represents Actual Engine Speed (1000 RPM)"
+          - "0x4F represents Percent Load at Current RPM (31%)"
 
   Emissions_And_Environmental_Impact:
-    PGN_65269:
+    Message_ID_65269:
       Description: Exhaust Emission Control
       Parameters:
         - NOx_Concentration:
@@ -74,36 +80,42 @@ SAE_J1939:
         - DEF_Level:
             Raw_Data: "0x64"
             Parsed_Value: "100%"
-  # Example data for Exhaust Emission Control:
-  # { "id": 65269, "data": "0x10 0xA4 0x07 0x64" }
-  # 0x10A4 represents NOx Concentration (10.5 ppm),
-  # 0x07 represents Particulate Matter (0.02 g/kWh),
-  # 0x64 represents DEF Level (100%).
+      Example_Data:
+        ID: 65269
+        Data: "0x10 0xA4 0x07 0x64"
+        Notes:
+          - "0x10A4 represents NOx Concentration (10.5 ppm)"
+          - "0x07 represents Particulate Matter (0.02 g/kWh)"
+          - "0x64 represents DEF Level (100%)"
 
   Fault_Detection_And_Diagnostic_Trouble_Codes:
-    PGN_65226:
+    Message_ID_65226:
       Description: Active Diagnostic Trouble Codes
       Parameters:
         - Active_DTC:
             Raw_Data: "0xFE 0x12 0x34 0x56"
             Parsed_Value: "SPN: 1234, FMI: 6 (High Temp Warning)"
-  # Example data for Active Diagnostic Trouble Codes:
-  # { "id": 65226, "data": "0xFE 0x12 0x34 0x56" }
-  # 0xFE123456 represents an Active DTC with SPN 1234 and FMI 6 (High Temp Warning).
+      Example_Data:
+        ID: 65226
+        Data: "0xFE 0x12 0x34 0x56"
+        Notes:
+          - "0xFE123456 represents an Active DTC with SPN 1234 and FMI 6 (High Temp Warning)"
 
   Vehicle_Load_And_Weight_Monitoring:
-    PGN_64964:
+    Message_ID_64964:
       Description: Axle Weight
       Parameters:
         - Axle_Weight:
             Raw_Data: "0x02 0x50"
             Parsed_Value: "5920 kg"
-  # Example data for Axle Weight:
-  # { "id": 64964, "data": "0x02 0x50" }
-  # 0x0250 represents Axle Weight (5920 kg).
+      Example_Data:
+        ID: 64964
+        Data: "0x02 0x50"
+        Notes:
+          - "0x0250 represents Axle Weight (5920 kg)"
 
   Driver_Behavior_And_Safety_Monitoring:
-    PGN_61441:
+    Message_ID_61441:
       Description: Electronic Brake Controller 1
       Parameters:
         - Brake_Pressure:
@@ -115,13 +127,15 @@ SAE_J1939:
             States:
               "0x00": "Inactive"
               "0x01": "Active"
-  # Example data for Electronic Brake Controller 1:
-  # { "id": 61441, "data": "0x1A 0x01" }
-  # 0x1A represents Brake Pressure (400 psi),
-  # 0x01 represents Anti-Lock Brakes Status (Active).
+      Example_Data:
+        ID: 61441
+        Data: "0x1A 0x01"
+        Notes:
+          - "0x1A represents Brake Pressure (400 psi)"
+          - "0x01 represents Anti-Lock Brakes Status (Active)"
 
   Battery_And_Electrical_System_Monitoring:
-    PGN_65271:
+    Message_ID_65271:
       Description: Vehicle Electrical Power 1
       Parameters:
         - Battery_Voltage:
@@ -136,14 +150,16 @@ SAE_J1939:
             States:
               "0x00": "Not Charging"
               "0x01": "Charging"
-  # Example data for Vehicle Electrical Power 1:
-  # { "id": 65271, "data": "0x0F 0xA0 0x03 0xE8 0x01" }
-  # 0x0FA0 represents Battery Voltage (12.5 V),
-  # 0x03E8 represents Battery Current (100 A),
-  # 0x01 represents Charging Status (Charging).
+      Example_Data:
+        ID: 65271
+        Data: "0x0F 0xA0 0x03 0xE8 0x01"
+        Notes:
+          - "0x0FA0 represents Battery Voltage (12.5 V)"
+          - "0x03E8 represents Battery Current (100 A)"
+          - "0x01 represents Charging Status (Charging)"
 
   Transmission_And_Drivetrain_Health:
-    PGN_61442:
+    Message_ID_61442:
       Description: Electronic Transmission Controller 1
       Parameters:
         - Transmission_Oil_Temperature:
@@ -165,24 +181,28 @@ SAE_J1939:
               "0x09": "9th Gear"
               "0x0A": "10th Gear"
               "0x0F": "Reverse"
-  # Example data for Electronic Transmission Controller 1:
-  # { "id": 61442, "data": "0x35 0x04" }
-  # 0x35 represents Transmission Oil Temperature (55 °C),
-  # 0x04 represents Gear Position (4th Gear).
+      Example_Data:
+        ID: 61442
+        Data: "0x35 0x04"
+        Notes:
+          - "0x35 represents Transmission Oil Temperature (55 °C)"
+          - "0x04 represents Gear Position (4th Gear)"
 
   Vehicle_Speed_Data:
-    PGN_65256:
+    Message_ID_65256:
       Description: Wheel-Based Vehicle Speed
       Parameters:
         - Vehicle_Speed:
             Raw_Data: "0x0A 0xBC"
             Parsed_Value: "43.5 km/h"
-  # Example data for Wheel-Based Vehicle Speed:
-  # { "id": 65256, "data": "0x0A 0xBC" }
-  # 0x0ABC represents Vehicle Speed (43.5 km/h).
+      Example_Data:
+        ID: 65256
+        Data: "0x0A 0xBC"
+        Notes:
+          - "0x0ABC represents Vehicle Speed (43.5 km/h)"
 
   Transmission_Output_Shaft_Speed:
-    PGN_61442:
+    Message_ID_61442:
       Description: Electronic Transmission Controller
       Parameters:
         - Transmission_Output_Shaft_Speed:
@@ -191,33 +211,9 @@ SAE_J1939:
         - Approximate_Vehicle_Speed:
             Calculation: "Using gear ratio with Transmission Output Shaft Speed"
             Parsed_Value: "45 km/h" # This depends on the specific gear ratio and transmission configuration
-  # Example data for Transmission Output Shaft Speed:
-  # { "id": 61442, "data": "0x34 0x12" }
-  # 0x3412 represents Transmission Output Shaft Speed (1050 RPM),
-  # Approximate Vehicle Speed is calculated based on gear ratio (e.g., 45 km/h).
-
-  Tire_Pressure_Data:
-    PGN_65215:
-      Description: Tire Pressure Information
-      Tires:
-        - Axle: 1
-          Position: 1
-          Raw_Data: "0x3B"
-          Parsed_Value: "45 psi"
-        - Axle: 1
-          Position: 2
-          Raw_Data: "0x3A"
-          Parsed_Value: "44 psi"
-        - Axle: 2
-          Position: 1
-          Raw_Data: "0x39"
-          Parsed_Value: "43 psi"
-        - Axle: 2
-          Position: 2
-          Raw_Data: "0x38"
-          Parsed_Value: "42 psi"
-  # Example data for Tire Pressure:
-  # { "id": 65215, "data": "0x01 0x01 0x3B" }
-  # 0x01 represents Axle 1,
-  # 0x01 represents Position 1 (typically the left tire),
-  # 0x3B is the pressure, which would be parsed as 45 psi.
+      Example_Data:
+        ID: 61442
+        Data: "0x34 0x12"
+        Notes:
+          - "0x3412 represents Transmission Output Shaft Speed (1050 RPM)"
+          - "Approximate Vehicle Speed is calculated based on gear ratio (e.g.,
