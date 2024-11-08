@@ -46,8 +46,11 @@ RSpec.describe MazdaRx8MessageGenerator do
       expect(message[:id]).to eq(0x201)
     end
 
-    it 'has seven bytes with the throttle position in the correct byte' do
+    it 'has seven bytes in the data array' do
       expect(message[:data].size).to eq(7)
+    end
+
+    it 'has the correct throttle position in the seventh byte' do
       expect(message[:data][6]).to eq((50 * 2.5).to_i)
     end
   end
@@ -76,8 +79,11 @@ RSpec.describe MazdaRx8MessageGenerator do
       expect(message[:id]).to eq(0x201)
     end
 
-    it 'has six bytes with vehicle speed in the correct bytes' do
+    it 'has six bytes in the data array' do
       expect(message[:data].size).to eq(6)
+    end
+
+    it 'has the vehicle speed in the correct bytes' do
       expected_speed = ((80 * 100) + 10_000).to_i
       expect(message[:data][4..5]).to eq([expected_speed >> 8, expected_speed & 0xFF])
     end
