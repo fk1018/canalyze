@@ -1,8 +1,27 @@
-# canalyze/can_emulator/Rakefile
-require 'rspec/core/rake_task'
+# frozen_string_literal: true
 
-RSpec::Core::RakeTask.new(:spec) do |t|
-  t.pattern = 'spec/**/*_spec.rb'
+require 'rspec/core/rake_task'
+require 'rubocop/rake_task'
+
+# Test tasks
+namespace :test do
+  desc 'Run RSpec tests'
+  RSpec::Core::RakeTask.new(:run) do |t|
+    t.pattern = 'spec/**/*_spec.rb'
+  end
 end
 
-task default: :spec
+# Linting tasks
+namespace :lint do
+  desc 'Run RuboCop for code style checks'
+  task :rubocop do
+    sh 'bundle exec rubocop'
+  end
+end
+
+# Run both tests and linting
+desc 'Run both tests and linting'
+task all: ['test:run', 'lint:rubocop']
+
+# Default task
+task default: 'test:run'

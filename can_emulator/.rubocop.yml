@@ -1,0 +1,80 @@
+# Enforce community Ruby style guidelines
+AllCops:
+  TargetRubyVersion: 3.3.5
+  NewCops: enable
+
+# Style cops
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: single_quotes
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: true
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: nested
+
+Style/HashSyntax:
+  EnforcedStyle: ruby19
+
+Metrics/MethodLength:
+  Max: 10
+
+Metrics/BlockLength:
+  Max: 20
+
+Style/GuardClause:
+  Enabled: true
+
+Style/NestedParenthesizedCalls:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: consistent_comma
+
+Layout/LineLength:
+  Max: 100
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: true
+
+Layout/IndentationConsistency:
+  Enabled: true
+
+Layout/SpaceInsideBlockBraces:
+  EnforcedStyle: space
+
+Lint/UselessAssignment:
+  Enabled: true
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: true
+
+Lint/UnusedMethodArgument:
+  Enabled: true
+
+Lint/UnusedBlockArgument:
+  Enabled: true
+
+Performance/FixedSize:
+  Enabled: true
+
+Performance/StringReplacement:
+  Enabled: true
+
+Performance/Casecmp:
+  Enabled: true
+
+Performance/RedundantMerge:
+  Enabled: true
+
+require:
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-rspec
+  # - rubocop-rails         # Include RuboCop Rails for Rails-specific best practices
