@@ -12,8 +12,9 @@ end
 def start_emulator
   emulator = Object.const_get(EMULATOR).new
   emulator.start
-rescue StandardError
-  puts 'Unable to start emulator please check config/emulator.rb'
+rescue StandardError => e
+  puts "Unable to start emulator: #{e.message}"
+  puts e.backtrace
 end
 
 main
