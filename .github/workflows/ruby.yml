@@ -2,15 +2,15 @@ name: Ruby
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 permissions:
   contents: read
 
 jobs:
-  test:
+  can_emulator_test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,14 +19,16 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3.5
-          bundler-cache: true  # Runs 'bundle install' and caches installed gems automatically
+          bundler-cache: true
 
-      - name: Change to can_emulator directory
-        working-directory: canalyze/can_emulator
-        run: |
-          # Install dependencies
-          bundle install
+      - name: Install dependencies
+        working-directory: can_emulator
+        run: bundle install
+
+      - name: Run Rubocop
+        working-directory: can_emulator
+        run: bundle exec rake lint:rubocop
 
       - name: Run tests
-        working-directory: canalyze/can_emulator
-        run: bundle exec rake
+        working-directory: can_emulator
+        run: bundle exec rake test:run
