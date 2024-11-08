@@ -36,7 +36,7 @@ class MazdaRx8Emulator
   end
 
   def send_can_message(message)
-    puts "Sending message with ID: #{message[:id]}, Data: #{message[:data].inspect}" # Debugging output
+    puts "Sending message with ID: #{message[:id]}, Data: #{message[:data].inspect}"
     @can_socket.send_message(message[:id], message[:data])
   end
 
