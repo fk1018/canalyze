@@ -2,24 +2,26 @@
 # frozen_string_literal: true
 
 require_relative 'mazda_rx8_message_generator'
+require_relative 'can_socket'
 
 # MazdaRx8Emulator
 class MazdaRx8Emulator
   def initialize
     @message_generator = MazdaRx8MessageGenerator.new
+    @can_socket = CanSocket.new('vcan0')
   end
 
   def start
     puts 'Starting Mazda RX-8 CAN Emulator...'
     loop do
-      generate_and_print_messages
+      generate_and_send_messages
       sleep(1)
     end
   end
 
   private
 
-  def generate_and_print_messages
+  def generate_and_send_messages
     messages = {
       indicator_lights: @message_generator.indicator_lights_message,
       engine_rpm: @message_generator.engine_rpm_message(random_rpm),
@@ -30,10 +32,14 @@ class MazdaRx8Emulator
       oil_pressure: @message_generator.oil_pressure_message(oil_pressure_status)
     }
 
-    messages.each_value { |message| puts message }
+    messages.each_value { |message| send_can_message(message) }
   end
 
-  # Random data generation
+  def send_can_message(message)
+    puts "Sending message with ID: #{message[:id]}, Data: #{message[:data].inspect}" # Debugging output
+    @can_socket.send_message(message[:id], message[:data])
+  end
+
   def random_rpm
     rand(800..7000)
   end
