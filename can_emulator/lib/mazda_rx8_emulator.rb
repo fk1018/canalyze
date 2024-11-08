@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 require_relative 'mazda_rx8_message_generator'
-require_relative 'can_socket'
+require_relative '../../can_socket/can_socket'
 
 # MazdaRx8Emulator
 class MazdaRx8Emulator
