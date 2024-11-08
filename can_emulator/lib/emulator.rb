@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Emulator
 module Emulator
   def start

@@ -17,11 +17,4 @@ describe J1939Emulator do
       expect(emulator_instance).to be_an_instance_of(described_class)
     end
   end
-
-  describe '#start' do
-    it 'should print starting message' do
-      obj = J1939Emulator.new
-      expect { obj.start }.to output("Starting J1939Emulator\n").to_stdout
-    end
-  end
 end

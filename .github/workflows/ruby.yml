@@ -2,9 +2,9 @@ name: Ruby
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -25,6 +25,10 @@ jobs:
         working-directory: can_emulator
         run: bundle install
 
+      - name: Run Rubocop
+        working-directory: can_emulator
+        run: bundle exec rake lint:rubocop
+
       - name: Run tests
         working-directory: can_emulator
-        run: bundle exec rake
+        run: bundle exec rake test:run
