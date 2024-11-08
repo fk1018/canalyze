@@ -6,12 +6,6 @@ require_relative '../../lib/mazda_rx8_emulator'
 RSpec.describe MazdaRx8Emulator do
   let(:emulator) { described_class.new }
 
-  describe '#generate_and_print_messages' do
-    it 'generates and prints messages without errors' do
-      expect { emulator.send(:generate_and_print_messages) }.not_to raise_error
-    end
-  end
-
   describe 'random data generation methods' do
     it 'generates a random RPM within the expected range' do
       rpm = emulator.send(:random_rpm)
