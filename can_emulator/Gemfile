@@ -16,3 +16,5 @@ group :test do
   gem 'rspec', '~> 3.10'
   gem 'simplecov', '~> 0.22.0', require: false
 end
+
+gem 'can_messenger', '~> 0.1.0'

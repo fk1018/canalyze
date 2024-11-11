@@ -1,14 +1,14 @@
 # mazda_rx8_emulator.rb
 # frozen_string_literal: true
 
+require 'can_messenger'
 require_relative 'mazda_rx8_message_generator'
-require_relative '../../can_socket/can_socket'
 
 # MazdaRx8Emulator
 class MazdaRx8Emulator
   def initialize
     @message_generator = MazdaRx8MessageGenerator.new
-    @can_socket = CanSocket.new('vcan0')
+    @can_socket = CanMessenger::Messenger.new('vcan0')
   end
 
   def start
@@ -37,7 +37,7 @@ class MazdaRx8Emulator
 
   def send_can_message(message)
     puts "Sending message with ID: #{message[:id]}, Data: #{message[:data].inspect}"
-    @can_socket.send_message(message[:id], message[:data])
+    @can_socket.send_can_message(message[:id], message[:data])
   end
 
   def random_rpm
