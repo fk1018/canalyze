@@ -1,0 +1,23 @@
+{
+  "name": "message_uploader",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node --experimental-strip-types src/index.ts",
+    "test": "npm run build && c8 node --test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "socketcan": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "c8": "^10.1.2",
+    "typescript": "^5.6.3"
+  },
+  "type": "module"
+}
