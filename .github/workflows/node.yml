@@ -1,5 +1,4 @@
-# .github/workflows/node.yml
-name: Message Uploader
+name: Node
 
 on:
   push:
@@ -23,13 +22,13 @@ jobs:
           node-version: '22.10'
 
       - name: Install dependencies
-        working-directory: canalyze/message_uploader
+        working-directory: message_uploader
         run: npm install
 
       - name: Build the project
-        working-directory: canalyze/message_uploader
+        working-directory: message_uploader
         run: npm run build
 
       - name: Run tests with coverage
-        working-directory: canalyze/message_uploader
+        working-directory: message_uploader
         run: npm run test
