@@ -52,10 +52,9 @@ build-iPhoneSimulator/
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
 
-# Used by RuboCop. Remote config files pulled in from inherit_from directive.
-# .rubocop-https?--*
-
-# Dont check in my idea configs
 **.idea/
 **notes/
 **coverage/
+**node_modules/
+**.env**
+**dist/

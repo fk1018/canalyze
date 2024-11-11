@@ -7,11 +7,16 @@
     {
       "name": "can_emulator",
       "path": "can_emulator"
+    },
+    {
+      "name": "message_uploader",
+      "path": "message_uploader"
     }
   ],
   "settings": {
     "files.exclude": {
-      "can_emulator": true
+      "can_emulator": true,
+      "message_uploader": true
     }
   }
 }
