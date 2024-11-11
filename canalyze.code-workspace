@@ -7,10 +7,6 @@
     {
       "name": "can_emulator",
       "path": "can_emulator"
-    },
-    {
-      "name": "can_socket",
-      "path": "can_socket"
     }
   ],
   "settings": {
