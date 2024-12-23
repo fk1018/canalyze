@@ -1,7 +1,6 @@
-// src/index.ts
 import * as can from "socketcan";
 import * as dotenv from "dotenv";
-import { uploadCanMessage, CanMessageData } from "./services/upload-service";
+import { saveCanMessage, CanMessageData } from "./lib/save-message";
 
 dotenv.config();
 
@@ -20,7 +19,8 @@ channel.addListener("onMessage", (msg: CanMessage) => {
     timestamp: new Date().toISOString(),
   };
 
-  uploadCanMessage(data);
+  // save message to flat file
+  saveCanMessage(data);
 });
 
 channel.start();
