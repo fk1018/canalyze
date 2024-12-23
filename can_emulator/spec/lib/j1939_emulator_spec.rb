@@ -13,8 +13,8 @@ describe J1939Emulator do
       expect { emulator_instance }.not_to raise_error
     end
 
-    it 'returns nil' do
-      expect(emulator_instance).to be_an_instance_of(described_class)
+    it 'creates an instance with default values' do
+      expect(emulator_instance.instance_variable_get(:@emulator)).to eq({})
     end
   end
 end

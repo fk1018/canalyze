@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc",
-    "dev": "node --experimental-strip-types src/index.ts",
-    "test": "npm run build && c8 node --test"
+    "dev": "tsx src/index.ts",
+    "test": "c8 tsx --test"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +16,7 @@
   "devDependencies": {
     "@types/node": "^22.9.0",
     "c8": "^10.1.2",
+    "tsx": "^4.19.2",
     "typescript": "^5.6.3"
   },
   "type": "module"
