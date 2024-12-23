@@ -9,14 +9,14 @@
       "path": "can_emulator"
     },
     {
-      "name": "message_uploader",
-      "path": "message_uploader"
+      "name": "message_reader",
+      "path": "message_reader"
     }
   ],
   "settings": {
     "files.exclude": {
       "can_emulator": true,
-      "message_uploader": true
+      "message_reader": true
     }
   }
 }
