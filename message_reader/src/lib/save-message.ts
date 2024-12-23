@@ -9,8 +9,12 @@ export const saveCanMessage = async (
   data: CanMessageProcessed
 ): Promise<boolean> => {
   try {
+    const date = new Date(data.timestamp);
+    const path = `data/${date.getFullYear()}${
+      date.getMonth() + 1
+    }${date.getDate()}.txt`;
     let options: WriteFileOptions = { encoding: "utf-8" };
-    await appendFile("data/", JSON.stringify(data) + "\n", options, () => {
+    await appendFile(path, JSON.stringify(data) + "\n", options, () => {
       console.log(`Message saved: ${JSON.stringify(data)}`);
     });
     return true;

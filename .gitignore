@@ -58,4 +58,4 @@ build-iPhoneSimulator/
 **node_modules/
 **.env**
 **dist/
-**data/**
+**data/
