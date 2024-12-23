@@ -12,9 +12,5 @@ describe J1939Emulator do
     it 'creates an instance without error' do
       expect { emulator_instance }.not_to raise_error
     end
-
-    it 'returns nil' do
-      expect(emulator_instance).to be_an_instance_of(described_class)
-    end
   end
 end

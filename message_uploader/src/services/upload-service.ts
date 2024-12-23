@@ -5,7 +5,9 @@ export interface CanMessageData {
   timestamp: string;
 }
 
-export const uploadCanMessage = async (data: CanMessageData): Promise<boolean> => {
+export const uploadCanMessage = async (
+  data: CanMessageData
+): Promise<boolean> => {
   try {
     // const response = await fetch('IP/upload', {
     //   method: 'POST',
@@ -23,6 +25,6 @@ export const uploadCanMessage = async (data: CanMessageData): Promise<boolean> =
     return true;
   } catch (error) {
     console.error(`Failed to upload message: ${error}`);
-    return false
+    return false;
   }
 };
